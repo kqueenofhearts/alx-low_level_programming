@@ -5,7 +5,7 @@
  *   * printf - Prints inputs
  *    * @void: Description of a empty parameter
  *      * Description: This is going to print
- *       * Return: 0 Value if it works*
+ *       * Return: 0 Value if it works
  *        */
 
 int main(void)

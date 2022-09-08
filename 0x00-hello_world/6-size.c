@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
- *
  *  * main - prints the size char,int,lomg int,long long int and float
- *
  *   * Return: 0 if success
- *
  **/
 
 int main(void)
@@ -23,6 +20,6 @@ int main(void)
 		printf("Size of an int: %d byte(s)\n", sizeof(b));
 		printf("Size of a long int: %d byte(s)\n", sizeof(c));
 		printf("Size of a long long int: %d byte(s)\n", sizeof(d));
-		return 0;
+		return (0);
 
 }

@@ -2,34 +2,26 @@
 
 /**
  *
- *  * main - Accept empty value
+ *  * main - prints the size char,int,lomg int,long long int and float
  *
- *   * printf - Prints inputs
+ *   * Return: 0 if success
  *
- *    * sizeof - Show the size
- *
- *     * @void: Description of a empty parameter
- *
- *       * Description: This is going to print
- *
- *        * Return: 0 Value if it works
- *
- *         */
+ *    */
 
 int main(void)
 
 {
 
-	printf("Size of a char: %d byte(s)\n", (int)sizeof(char));
+		char a;
+		int b;
+		long int c;
+		long long int d;
+		float e;
 
-	printf("Size of an int: %d byte(s)\n", (int)sizeof(int));
-
-	printf("Size of a long int: %d byte(s)\n", (int)sizeof(long int));
-
-	printf("Size of a long long int: %d byte(s)\n", (int)sizeof(long long int));
-
-	printf("Size of a float: %d byte(s)\n", (int)sizeof(float));
-
-	return (0);
-
+		printf("Size ofa char: %d byte(s)\n", sizeof(a));
+		printf("Size of a char: %d byte(s)\n", sizeof(a));
+		printf("Size of an int: %d byte(s)\n", sizeof(b));
+		printf("Size of a long int: %d byte(s)\n", sizeof(c));
+		printf("Size of a long long int: %d byte(s)\n", sizeof(d));
+		return 0;
 }

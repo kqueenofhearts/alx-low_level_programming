@@ -7,10 +7,9 @@
  * Description: This sort number from 9 to  16
  * Return: 0 Value if it works
  */
-
 int main(void)
-
 {
+
 	int x;
 
 	for (x = '0'; x <= '9'; x++)
@@ -23,6 +22,7 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
 
  

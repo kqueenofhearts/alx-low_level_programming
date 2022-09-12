@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Accept empty value
  * write - Screen information

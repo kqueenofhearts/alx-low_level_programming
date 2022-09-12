@@ -1,4 +1,4 @@
-lnclude <stdio.h>
+#lnclude <stdio.h>
 
 /**
  * main - Accept empty value

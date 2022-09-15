@@ -13,7 +13,7 @@ int main(void)
 {
 	int x;
 
-	char y[] ="_putchar";
+	char y[] = "_putchar";
 		for (x = 0; x < 9; x++)
 				{
 			_putchar(y[x]);

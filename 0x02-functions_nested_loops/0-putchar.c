@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - Accept empty value
@@ -11,15 +11,15 @@
 int main(void)
 
 {
-		char x = 'a';
+	int x;
 
-			while (x <= 'z')
-					{
-					putchar(x);
-					x++;
-					}
-				putchar('\n');
-					return (0);
+	char y[] ="_putchar";
+		for (x = 0; x < 9; x++)
+				{
+			_putchar(y[x]);
+				}
+			_putchar('\n');
+			return (0);
 }
 
 

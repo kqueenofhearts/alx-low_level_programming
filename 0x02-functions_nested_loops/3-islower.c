@@ -1,6 +1,6 @@
 #include "main.h"
 
-**
+/**
  * _islower - Determine if a character is lowercase
  * c: The evaluated letter
  * Description: This prints 0 if the input is a lower and 1 if is not

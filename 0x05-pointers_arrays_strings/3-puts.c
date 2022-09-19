@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * void_puts - function that prtints string to stdout
- * @n: evaluation od input
+ * _puts - function that prtints string to stdout
+ * @str: evaluated input
  * Description: function that prints string to stdout
  * Return: empty
  */

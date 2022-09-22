@@ -1,27 +1,20 @@
 #include "main.h"
-
 /**
- * _strncat - Concatenates two strings until n
+ * _strcat - Concatenates two strings until n
  * @dest: First input
  * @src: Segundo input
- * @n: Lenght
- *
  * Description: Concatenates two strings until n
  * Return: dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int i = 0, j = 0, lengt_src = 0;
+	int i = 0, j = 0;
 
 	while (*(dest + i) != '\0')
 	{
 		i++;
 	}
-	while (*(src + lengt_src) != '\0')
-	{
-		lengt_src++;
-	}
-	while (j < n && j < lengt_src)
+	while (*(src + j) != '\0')
 	{
 		*(dest + i) = *(src + j);
 		i++;
